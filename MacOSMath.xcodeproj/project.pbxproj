@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E3436E1E1F6F1600D63A80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E3436D1E1F6F1600D63A80 /* Cocoa.framework */; };
+		26E343781E1F6F1600D63A80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26E343761E1F6F1600D63A80 /* InfoPlist.strings */; };
+		26E3437A1E1F6F1600D63A80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343791E1F6F1600D63A80 /* main.m */; };
+		26E3437E1E1F6F1600D63A80 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 26E3437C1E1F6F1600D63A80 /* Credits.rtf */; };
+		26E343811E1F6F1600D63A80 /* AZGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343801E1F6F1600D63A80 /* AZGAppDelegate.m */; };
+		26E343841E1F6F1700D63A80 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26E343821E1F6F1700D63A80 /* MainMenu.xib */; };
+		26E3438C1E1F6F1700D63A80 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E3438B1E1F6F1700D63A80 /* SenTestingKit.framework */; };
+		26E3438D1E1F6F1700D63A80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E3436D1E1F6F1600D63A80 /* Cocoa.framework */; };
+		26E343951E1F6F1700D63A80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26E343931E1F6F1700D63A80 /* InfoPlist.strings */; };
+		26E343981E1F6F1700D63A80 /* MacOSMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343971E1F6F1700D63A80 /* MacOSMathTests.m */; };
+		26E343C81E1F6F3F00D63A80 /* GUST-FONT-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A31E1F6F3F00D63A80 /* GUST-FONT-LICENSE.txt */; };
+		26E343C91E1F6F3F00D63A80 /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A41E1F6F3F00D63A80 /* latinmodern-math.otf */; };
+		26E343CA1E1F6F3F00D63A80 /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A51E1F6F3F00D63A80 /* latinmodern-math.plist */; };
+		26E343CB1E1F6F3F00D63A80 /* math_table_to_plist.py in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A61E1F6F3F00D63A80 /* math_table_to_plist.py */; };
+		26E343CC1E1F6F3F00D63A80 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A71E1F6F3F00D63A80 /* OFL.txt */; };
+		26E343CD1E1F6F3F00D63A80 /* README-Latin-Modern-Math.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A81E1F6F3F00D63A80 /* README-Latin-Modern-Math.txt */; };
+		26E343CE1E1F6F3F00D63A80 /* README-TeX-Gyre-Termes-Math.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26E343A91E1F6F3F00D63A80 /* README-TeX-Gyre-Termes-Math.txt */; };
+		26E343CF1E1F6F3F00D63A80 /* texgyretermes-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26E343AA1E1F6F3F00D63A80 /* texgyretermes-math.otf */; };
+		26E343D01E1F6F3F00D63A80 /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E343AB1E1F6F3F00D63A80 /* texgyretermes-math.plist */; };
+		26E343D11E1F6F3F00D63A80 /* xits-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26E343AC1E1F6F3F00D63A80 /* xits-math.otf */; };
+		26E343D21E1F6F3F00D63A80 /* xits-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E343AD1E1F6F3F00D63A80 /* xits-math.plist */; };
+		26E343D31E1F6F3F00D63A80 /* MTMathAtomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343B01E1F6F3F00D63A80 /* MTMathAtomFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343D41E1F6F3F00D63A80 /* MTMathList.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343B21E1F6F3F00D63A80 /* MTMathList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343D51E1F6F3F00D63A80 /* MTMathListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343B41E1F6F3F00D63A80 /* MTMathListBuilder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343D61E1F6F3F00D63A80 /* MTMathListIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343B61E1F6F3F00D63A80 /* MTMathListIndex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343D71E1F6F3F00D63A80 /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343B81E1F6F3F00D63A80 /* MTUnicode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343D81E1F6F3F00D63A80 /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343BE1E1F6F3F00D63A80 /* MTFontMathTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343D91E1F6F3F00D63A80 /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343C11E1F6F3F00D63A80 /* MTTypesetter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343DA1E1F6F3F00D63A80 /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343C31E1F6F3F00D63A80 /* MTFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343DB1E1F6F3F00D63A80 /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343C51E1F6F3F00D63A80 /* MTMathListDisplay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343DC1E1F6F3F00D63A80 /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343C71E1F6F3F00D63A80 /* MTMathUILabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26E343DD1E1F710F00D63A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E343721E1F6F1600D63A80 /* Foundation.framework */; };
+		26E343DF1E1F711B00D63A80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E343DE1E1F711B00D63A80 /* CoreGraphics.framework */; };
+		26E343E11E1F712100D63A80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E343E01E1F712100D63A80 /* QuartzCore.framework */; };
+		26E343E31E1F712B00D63A80 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E343E21E1F712B00D63A80 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E3438E1E1F6F1700D63A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E343621E1F6F1600D63A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E343691E1F6F1600D63A80;
+			remoteInfo = MacOSMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26E3436A1E1F6F1600D63A80 /* MacOSMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3436D1E1F6F1600D63A80 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		26E343701E1F6F1600D63A80 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		26E343711E1F6F1600D63A80 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		26E343721E1F6F1600D63A80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26E343751E1F6F1600D63A80 /* MacOSMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacOSMath-Info.plist"; sourceTree = "<group>"; };
+		26E343771E1F6F1600D63A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26E343791E1F6F1600D63A80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26E3437B1E1F6F1600D63A80 /* MacOSMath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacOSMath-Prefix.pch"; sourceTree = "<group>"; };
+		26E3437D1E1F6F1600D63A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		26E3437F1E1F6F1600D63A80 /* AZGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZGAppDelegate.h; sourceTree = "<group>"; };
+		26E343801E1F6F1600D63A80 /* AZGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZGAppDelegate.m; sourceTree = "<group>"; };
+		26E343831E1F6F1700D63A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		26E3438A1E1F6F1700D63A80 /* MacOSMathTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSMathTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3438B1E1F6F1700D63A80 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		26E343921E1F6F1700D63A80 /* MacOSMathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacOSMathTests-Info.plist"; sourceTree = "<group>"; };
+		26E343941E1F6F1700D63A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26E343961E1F6F1700D63A80 /* MacOSMathTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacOSMathTests.h; sourceTree = "<group>"; };
+		26E343971E1F6F1700D63A80 /* MacOSMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacOSMathTests.m; sourceTree = "<group>"; };
+		26E343A31E1F6F3F00D63A80 /* GUST-FONT-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GUST-FONT-LICENSE.txt"; sourceTree = "<group>"; };
+		26E343A41E1F6F3F00D63A80 /* latinmodern-math.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "latinmodern-math.otf"; sourceTree = "<group>"; };
+		26E343A51E1F6F3F00D63A80 /* latinmodern-math.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "latinmodern-math.plist"; sourceTree = "<group>"; };
+		26E343A61E1F6F3F00D63A80 /* math_table_to_plist.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = math_table_to_plist.py; sourceTree = "<group>"; };
+		26E343A71E1F6F3F00D63A80 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		26E343A81E1F6F3F00D63A80 /* README-Latin-Modern-Math.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-Latin-Modern-Math.txt"; sourceTree = "<group>"; };
+		26E343A91E1F6F3F00D63A80 /* README-TeX-Gyre-Termes-Math.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-TeX-Gyre-Termes-Math.txt"; sourceTree = "<group>"; };
+		26E343AA1E1F6F3F00D63A80 /* texgyretermes-math.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "texgyretermes-math.otf"; sourceTree = "<group>"; };
+		26E343AB1E1F6F3F00D63A80 /* texgyretermes-math.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "texgyretermes-math.plist"; sourceTree = "<group>"; };
+		26E343AC1E1F6F3F00D63A80 /* xits-math.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "xits-math.otf"; sourceTree = "<group>"; };
+		26E343AD1E1F6F3F00D63A80 /* xits-math.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "xits-math.plist"; sourceTree = "<group>"; };
+		26E343AF1E1F6F3F00D63A80 /* MTMathAtomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathAtomFactory.h; sourceTree = "<group>"; };
+		26E343B01E1F6F3F00D63A80 /* MTMathAtomFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathAtomFactory.m; sourceTree = "<group>"; };
+		26E343B11E1F6F3F00D63A80 /* MTMathList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathList.h; sourceTree = "<group>"; };
+		26E343B21E1F6F3F00D63A80 /* MTMathList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathList.m; sourceTree = "<group>"; };
+		26E343B31E1F6F3F00D63A80 /* MTMathListBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListBuilder.h; sourceTree = "<group>"; };
+		26E343B41E1F6F3F00D63A80 /* MTMathListBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathListBuilder.m; sourceTree = "<group>"; };
+		26E343B51E1F6F3F00D63A80 /* MTMathListIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListIndex.h; sourceTree = "<group>"; };
+		26E343B61E1F6F3F00D63A80 /* MTMathListIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathListIndex.m; sourceTree = "<group>"; };
+		26E343B71E1F6F3F00D63A80 /* MTUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUnicode.h; sourceTree = "<group>"; };
+		26E343B81E1F6F3F00D63A80 /* MTUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUnicode.m; sourceTree = "<group>"; };
+		26E343B91E1F6F3F00D63A80 /* MacOSMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacOSMath.h; sourceTree = "<group>"; };
+		26E343BC1E1F6F3F00D63A80 /* MTFont+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTFont+Internal.h"; sourceTree = "<group>"; };
+		26E343BD1E1F6F3F00D63A80 /* MTFontMathTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFontMathTable.h; sourceTree = "<group>"; };
+		26E343BE1E1F6F3F00D63A80 /* MTFontMathTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontMathTable.m; sourceTree = "<group>"; };
+		26E343BF1E1F6F3F00D63A80 /* MTMathListDisplayInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplayInternal.h; sourceTree = "<group>"; };
+		26E343C01E1F6F3F00D63A80 /* MTTypesetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTypesetter.h; sourceTree = "<group>"; };
+		26E343C11E1F6F3F00D63A80 /* MTTypesetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTypesetter.m; sourceTree = "<group>"; };
+		26E343C21E1F6F3F00D63A80 /* MTFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFont.h; sourceTree = "<group>"; };
+		26E343C31E1F6F3F00D63A80 /* MTFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFont.m; sourceTree = "<group>"; };
+		26E343C41E1F6F3F00D63A80 /* MTMathListDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplay.h; sourceTree = "<group>"; };
+		26E343C51E1F6F3F00D63A80 /* MTMathListDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathListDisplay.m; sourceTree = "<group>"; };
+		26E343C61E1F6F3F00D63A80 /* MTMathUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathUILabel.h; sourceTree = "<group>"; };
+		26E343C71E1F6F3F00D63A80 /* MTMathUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathUILabel.m; sourceTree = "<group>"; };
+		26E343DE1E1F711B00D63A80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26E343E01E1F712100D63A80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		26E343E21E1F712B00D63A80 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E343671E1F6F1600D63A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E343E31E1F712B00D63A80 /* CoreText.framework in Frameworks */,
+				26E343E11E1F712100D63A80 /* QuartzCore.framework in Frameworks */,
+				26E343DF1E1F711B00D63A80 /* CoreGraphics.framework in Frameworks */,
+				26E343DD1E1F710F00D63A80 /* Foundation.framework in Frameworks */,
+				26E3436E1E1F6F1600D63A80 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E343861E1F6F1700D63A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3438C1E1F6F1700D63A80 /* SenTestingKit.framework in Frameworks */,
+				26E3438D1E1F6F1700D63A80 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E343611E1F6F1600D63A80 = {
+			isa = PBXGroup;
+			children = (
+				26E343731E1F6F1600D63A80 /* MacOSMath */,
+				26E343901E1F6F1700D63A80 /* MacOSMathTests */,
+				26E3436C1E1F6F1600D63A80 /* Frameworks */,
+				26E3436B1E1F6F1600D63A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26E3436B1E1F6F1600D63A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E3436A1E1F6F1600D63A80 /* MacOSMath.app */,
+				26E3438A1E1F6F1700D63A80 /* MacOSMathTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E3436C1E1F6F1600D63A80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E343E21E1F712B00D63A80 /* CoreText.framework */,
+				26E343E01E1F712100D63A80 /* QuartzCore.framework */,
+				26E343DE1E1F711B00D63A80 /* CoreGraphics.framework */,
+				26E3436D1E1F6F1600D63A80 /* Cocoa.framework */,
+				26E3438B1E1F6F1700D63A80 /* SenTestingKit.framework */,
+				26E3436F1E1F6F1600D63A80 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E3436F1E1F6F1600D63A80 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E343701E1F6F1600D63A80 /* AppKit.framework */,
+				26E343711E1F6F1600D63A80 /* CoreData.framework */,
+				26E343721E1F6F1600D63A80 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		26E343731E1F6F1600D63A80 /* MacOSMath */ = {
+			isa = PBXGroup;
+			children = (
+				26E3437F1E1F6F1600D63A80 /* AZGAppDelegate.h */,
+				26E343801E1F6F1600D63A80 /* AZGAppDelegate.m */,
+				26E343821E1F6F1700D63A80 /* MainMenu.xib */,
+				26E343A11E1F6F3F00D63A80 /* Rendering Engine */,
+				26E343741E1F6F1600D63A80 /* Supporting Files */,
+			);
+			path = MacOSMath;
+			sourceTree = "<group>";
+		};
+		26E343741E1F6F1600D63A80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E343751E1F6F1600D63A80 /* MacOSMath-Info.plist */,
+				26E343761E1F6F1600D63A80 /* InfoPlist.strings */,
+				26E343791E1F6F1600D63A80 /* main.m */,
+				26E3437B1E1F6F1600D63A80 /* MacOSMath-Prefix.pch */,
+				26E3437C1E1F6F1600D63A80 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E343901E1F6F1700D63A80 /* MacOSMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				26E343961E1F6F1700D63A80 /* MacOSMathTests.h */,
+				26E343971E1F6F1700D63A80 /* MacOSMathTests.m */,
+				26E343911E1F6F1700D63A80 /* Supporting Files */,
+			);
+			path = MacOSMathTests;
+			sourceTree = "<group>";
+		};
+		26E343911E1F6F1700D63A80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E343921E1F6F1700D63A80 /* MacOSMathTests-Info.plist */,
+				26E343931E1F6F1700D63A80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E343A11E1F6F3F00D63A80 /* Rendering Engine */ = {
+			isa = PBXGroup;
+			children = (
+				26E343A21E1F6F3F00D63A80 /* font */,
+				26E343AE1E1F6F3F00D63A80 /* lib */,
+				26E343B91E1F6F3F00D63A80 /* MacOSMath.h */,
+				26E343BA1E1F6F3F00D63A80 /* render */,
+			);
+			path = "Rendering Engine";
+			sourceTree = "<group>";
+		};
+		26E343A21E1F6F3F00D63A80 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				26E343A31E1F6F3F00D63A80 /* GUST-FONT-LICENSE.txt */,
+				26E343A41E1F6F3F00D63A80 /* latinmodern-math.otf */,
+				26E343A51E1F6F3F00D63A80 /* latinmodern-math.plist */,
+				26E343A61E1F6F3F00D63A80 /* math_table_to_plist.py */,
+				26E343A71E1F6F3F00D63A80 /* OFL.txt */,
+				26E343A81E1F6F3F00D63A80 /* README-Latin-Modern-Math.txt */,
+				26E343A91E1F6F3F00D63A80 /* README-TeX-Gyre-Termes-Math.txt */,
+				26E343AA1E1F6F3F00D63A80 /* texgyretermes-math.otf */,
+				26E343AB1E1F6F3F00D63A80 /* texgyretermes-math.plist */,
+				26E343AC1E1F6F3F00D63A80 /* xits-math.otf */,
+				26E343AD1E1F6F3F00D63A80 /* xits-math.plist */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		26E343AE1E1F6F3F00D63A80 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				26E343AF1E1F6F3F00D63A80 /* MTMathAtomFactory.h */,
+				26E343B01E1F6F3F00D63A80 /* MTMathAtomFactory.m */,
+				26E343B11E1F6F3F00D63A80 /* MTMathList.h */,
+				26E343B21E1F6F3F00D63A80 /* MTMathList.m */,
+				26E343B31E1F6F3F00D63A80 /* MTMathListBuilder.h */,
+				26E343B41E1F6F3F00D63A80 /* MTMathListBuilder.m */,
+				26E343B51E1F6F3F00D63A80 /* MTMathListIndex.h */,
+				26E343B61E1F6F3F00D63A80 /* MTMathListIndex.m */,
+				26E343B71E1F6F3F00D63A80 /* MTUnicode.h */,
+				26E343B81E1F6F3F00D63A80 /* MTUnicode.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		26E343BA1E1F6F3F00D63A80 /* render */ = {
+			isa = PBXGroup;
+			children = (
+				26E343BB1E1F6F3F00D63A80 /* internal */,
+				26E343C21E1F6F3F00D63A80 /* MTFont.h */,
+				26E343C31E1F6F3F00D63A80 /* MTFont.m */,
+				26E343C41E1F6F3F00D63A80 /* MTMathListDisplay.h */,
+				26E343C51E1F6F3F00D63A80 /* MTMathListDisplay.m */,
+				26E343C61E1F6F3F00D63A80 /* MTMathUILabel.h */,
+				26E343C71E1F6F3F00D63A80 /* MTMathUILabel.m */,
+			);
+			path = render;
+			sourceTree = "<group>";
+		};
+		26E343BB1E1F6F3F00D63A80 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				26E343BC1E1F6F3F00D63A80 /* MTFont+Internal.h */,
+				26E343BD1E1F6F3F00D63A80 /* MTFontMathTable.h */,
+				26E343BE1E1F6F3F00D63A80 /* MTFontMathTable.m */,
+				26E343BF1E1F6F3F00D63A80 /* MTMathListDisplayInternal.h */,
+				26E343C01E1F6F3F00D63A80 /* MTTypesetter.h */,
+				26E343C11E1F6F3F00D63A80 /* MTTypesetter.m */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E343691E1F6F1600D63A80 /* MacOSMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3439B1E1F6F1700D63A80 /* Build configuration list for PBXNativeTarget "MacOSMath" */;
+			buildPhases = (
+				26E343661E1F6F1600D63A80 /* Sources */,
+				26E343671E1F6F1600D63A80 /* Frameworks */,
+				26E343681E1F6F1600D63A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSMath;
+			productName = MacOSMath;
+			productReference = 26E3436A1E1F6F1600D63A80 /* MacOSMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26E343891E1F6F1700D63A80 /* MacOSMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3439E1E1F6F1700D63A80 /* Build configuration list for PBXNativeTarget "MacOSMathTests" */;
+			buildPhases = (
+				26E343851E1F6F1700D63A80 /* Sources */,
+				26E343861E1F6F1700D63A80 /* Frameworks */,
+				26E343871E1F6F1700D63A80 /* Resources */,
+				26E343881E1F6F1700D63A80 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E3438F1E1F6F1700D63A80 /* PBXTargetDependency */,
+			);
+			name = MacOSMathTests;
+			productName = MacOSMathTests;
+			productReference = 26E3438A1E1F6F1700D63A80 /* MacOSMathTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E343621E1F6F1600D63A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AZG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "安志钢";
+			};
+			buildConfigurationList = 26E343651E1F6F1600D63A80 /* Build configuration list for PBXProject "MacOSMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26E343611E1F6F1600D63A80;
+			productRefGroup = 26E3436B1E1F6F1600D63A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E343691E1F6F1600D63A80 /* MacOSMath */,
+				26E343891E1F6F1700D63A80 /* MacOSMathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E343681E1F6F1600D63A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E343781E1F6F1600D63A80 /* InfoPlist.strings in Resources */,
+				26E3437E1E1F6F1600D63A80 /* Credits.rtf in Resources */,
+				26E343841E1F6F1700D63A80 /* MainMenu.xib in Resources */,
+				26E343C81E1F6F3F00D63A80 /* GUST-FONT-LICENSE.txt in Resources */,
+				26E343C91E1F6F3F00D63A80 /* latinmodern-math.otf in Resources */,
+				26E343CA1E1F6F3F00D63A80 /* latinmodern-math.plist in Resources */,
+				26E343CB1E1F6F3F00D63A80 /* math_table_to_plist.py in Resources */,
+				26E343CC1E1F6F3F00D63A80 /* OFL.txt in Resources */,
+				26E343CD1E1F6F3F00D63A80 /* README-Latin-Modern-Math.txt in Resources */,
+				26E343CE1E1F6F3F00D63A80 /* README-TeX-Gyre-Termes-Math.txt in Resources */,
+				26E343CF1E1F6F3F00D63A80 /* texgyretermes-math.otf in Resources */,
+				26E343D01E1F6F3F00D63A80 /* texgyretermes-math.plist in Resources */,
+				26E343D11E1F6F3F00D63A80 /* xits-math.otf in Resources */,
+				26E343D21E1F6F3F00D63A80 /* xits-math.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E343871E1F6F1700D63A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E343951E1F6F1700D63A80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E343881E1F6F1700D63A80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E343661E1F6F1600D63A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3437A1E1F6F1600D63A80 /* main.m in Sources */,
+				26E343811E1F6F1600D63A80 /* AZGAppDelegate.m in Sources */,
+				26E343D31E1F6F3F00D63A80 /* MTMathAtomFactory.m in Sources */,
+				26E343D41E1F6F3F00D63A80 /* MTMathList.m in Sources */,
+				26E343D51E1F6F3F00D63A80 /* MTMathListBuilder.m in Sources */,
+				26E343D61E1F6F3F00D63A80 /* MTMathListIndex.m in Sources */,
+				26E343D71E1F6F3F00D63A80 /* MTUnicode.m in Sources */,
+				26E343D81E1F6F3F00D63A80 /* MTFontMathTable.m in Sources */,
+				26E343D91E1F6F3F00D63A80 /* MTTypesetter.m in Sources */,
+				26E343DA1E1F6F3F00D63A80 /* MTFont.m in Sources */,
+				26E343DB1E1F6F3F00D63A80 /* MTMathListDisplay.m in Sources */,
+				26E343DC1E1F6F3F00D63A80 /* MTMathUILabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E343851E1F6F1700D63A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E343981E1F6F1700D63A80 /* MacOSMathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26E3438F1E1F6F1700D63A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E343691E1F6F1600D63A80 /* MacOSMath */;
+			targetProxy = 26E3438E1E1F6F1700D63A80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26E343761E1F6F1600D63A80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E343771E1F6F1600D63A80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26E3437C1E1F6F1600D63A80 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3437D1E1F6F1600D63A80 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		26E343821E1F6F1700D63A80 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E343831E1F6F1700D63A80 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		26E343931E1F6F1700D63A80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E343941E1F6F1700D63A80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E343991E1F6F1700D63A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26E3439A1E1F6F1700D63A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26E3439C1E1F6F1700D63A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacOSMath/MacOSMath-Prefix.pch";
+				INFOPLIST_FILE = "MacOSMath/MacOSMath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26E3439D1E1F6F1700D63A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacOSMath/MacOSMath-Prefix.pch";
+				INFOPLIST_FILE = "MacOSMath/MacOSMath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26E3439F1E1F6F1700D63A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacOSMath.app/Contents/MacOS/MacOSMath";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacOSMath/MacOSMath-Prefix.pch";
+				INFOPLIST_FILE = "MacOSMathTests/MacOSMathTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		26E343A01E1F6F1700D63A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacOSMath.app/Contents/MacOS/MacOSMath";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacOSMath/MacOSMath-Prefix.pch";
+				INFOPLIST_FILE = "MacOSMathTests/MacOSMathTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E343651E1F6F1600D63A80 /* Build configuration list for PBXProject "MacOSMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E343991E1F6F1700D63A80 /* Debug */,
+				26E3439A1E1F6F1700D63A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3439B1E1F6F1700D63A80 /* Build configuration list for PBXNativeTarget "MacOSMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3439C1E1F6F1700D63A80 /* Debug */,
+				26E3439D1E1F6F1700D63A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26E3439E1E1F6F1700D63A80 /* Build configuration list for PBXNativeTarget "MacOSMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3439F1E1F6F1700D63A80 /* Debug */,
+				26E343A01E1F6F1700D63A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26E343621E1F6F1600D63A80 /* Project object */;
+}
