@@ -167,8 +167,8 @@ file for more info.
 This distribution contains the following fonts. These fonts are
 licensed as follows:
 * Latin Modern Math: 
-    [GUST Font License](./fonts/GUST-FONT-LICENSE.txt)
+    [GUST Font License](./MacOSMath/Rendering\ Engine/font/GUST-FONT-LICENSE.txt)
 * Tex Gyre Termes:
-    [GUST Font License](./fonts/GUST-FONT-LICENSE.txt)
+    [GUST Font License](./MacOSMath/Rendering\ Engine/font/GUST-FONT-LICENSE.txt)
 * [XITS Math](https://github.com/khaledhosny/xits-math):
-    [Open Font License](./fonts/OFL.txt)
+    [Open Font License](./MacOSMath/Rendering\ Engine/font/OFL.txt)
