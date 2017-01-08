@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268504231E21B78D00923701 /* xits-math-cn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 268504211E21B78D00923701 /* xits-math-cn.otf */; };
+		268504241E21B78D00923701 /* xits-math-cn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 268504221E21B78D00923701 /* xits-math-cn.plist */; };
 		26E3436E1E1F6F1600D63A80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E3436D1E1F6F1600D63A80 /* Cocoa.framework */; };
 		26E343781E1F6F1600D63A80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26E343761E1F6F1600D63A80 /* InfoPlist.strings */; };
 		26E3437A1E1F6F1600D63A80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E343791E1F6F1600D63A80 /* main.m */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268504211E21B78D00923701 /* xits-math-cn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "xits-math-cn.otf"; sourceTree = "<group>"; };
+		268504221E21B78D00923701 /* xits-math-cn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "xits-math-cn.plist"; sourceTree = "<group>"; };
 		26E3436A1E1F6F1600D63A80 /* MacOSMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E3436D1E1F6F1600D63A80 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		26E343701E1F6F1600D63A80 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -237,6 +241,8 @@
 		26E343A21E1F6F3F00D63A80 /* font */ = {
 			isa = PBXGroup;
 			children = (
+				268504211E21B78D00923701 /* xits-math-cn.otf */,
+				268504221E21B78D00923701 /* xits-math-cn.plist */,
 				26E343A31E1F6F3F00D63A80 /* GUST-FONT-LICENSE.txt */,
 				26E343A41E1F6F3F00D63A80 /* latinmodern-math.otf */,
 				26E343A51E1F6F3F00D63A80 /* latinmodern-math.plist */,
@@ -382,6 +388,8 @@
 				26E343D01E1F6F3F00D63A80 /* texgyretermes-math.plist in Resources */,
 				26E343D11E1F6F3F00D63A80 /* xits-math.otf in Resources */,
 				26E343D21E1F6F3F00D63A80 /* xits-math.plist in Resources */,
+				268504231E21B78D00923701 /* xits-math-cn.otf in Resources */,
+				268504241E21B78D00923701 /* xits-math-cn.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +623,7 @@
 				26E3439D1E1F6F1700D63A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26E3439E1E1F6F1700D63A80 /* Build configuration list for PBXNativeTarget "MacOSMathTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +632,7 @@
 				26E343A01E1F6F1700D63A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

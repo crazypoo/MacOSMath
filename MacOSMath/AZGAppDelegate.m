@@ -21,6 +21,9 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    // Change font to XITS Math with Chinese characters extension.
+    self.mathLabel.font = [MTFont xitsFontAndChineseExtensionWithSize:20.0f];
 }
 
 - (IBAction)clickUpdate:(NSButton *)sender

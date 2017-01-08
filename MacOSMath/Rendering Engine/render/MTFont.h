@@ -17,6 +17,9 @@
  */
 @interface MTFont : NSObject
 
+/** Initializer. */
+- (instancetype)initFontWithName:(NSString *)name size:(CGFloat)size;
+
 /** Returns a copy of this font but with a different size. */
 - (MTFont *)copyFontWithSize:(CGFloat)size NS_RETURNS_RETAINED;
 
@@ -24,6 +27,7 @@
 + (MTFont *)latinModernFontWithSize:(CGFloat)size;
 + (MTFont *)xitsFontWithSize:(CGFloat)size;
 + (MTFont *)termesFontWithSize:(CGFloat)size;
++ (MTFont *)xitsFontAndChineseExtensionWithSize:(CGFloat)size;
 
 /** Default font helper method. */
 + (MTFont *)defaultFont;

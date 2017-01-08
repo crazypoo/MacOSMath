@@ -78,6 +78,11 @@
     return [[[MTFont alloc] initFontWithName:@"texgyretermes-math" size:size] autorelease];
 }
 
++ (MTFont *)xitsFontAndChineseExtensionWithSize:(CGFloat)size
+{
+    return [[[MTFont alloc] initFontWithName:@"xits-math-cn" size:size] autorelease];
+}
+
 + (MTFont *)defaultFont
 {
     return [[[MTFont alloc] initFontWithName:@"xits-math" size:20] autorelease];

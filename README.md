@@ -11,6 +11,25 @@ Here is a screenshot of Quadratic Formula this library renders:
 
 ![Quadratic Formula](img/MacOSMath.png) 
 
+As of Jan. 7, 2017, Chinese characters support is added into this project.
+
+例子 (Examples)：
+
+![二次方程求根公式](img/cn_1.png)
+
+下面的例子无任何实际含义或不规范，仅用于演示程序功能使用 (The following examples do not have any meaning or is not writing standard, and is only used to illustrate functionality of this program)：
+
+![表达式1](img/cn_2.png)
+
+![表达式2](img/cn_3.png)
+
+To display Chinese characters, set the font to xits-math-cn.otf, which has Chinese font extension. You can also use your own otf font with Chinese characters. Here is an example:
+
+```objective-c
+self.mathLabel.font = [MTFont xitsFontAndChineseExtensionWithSize:20.0f];
+self.mathLabel.latex = @"中文";
+```
+
 ## Requirements
 `MacOSMath` works on OS X 10.8+, and uses advanced memory management (aka. Manual Retain Release). It depends on the following Apple frameworks:
 
