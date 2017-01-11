@@ -1,5 +1,5 @@
 # MacOSMath
-As of Jan. 11, 2017, MacOSMath is already merged back to iosMath. Check out [this link](https://github.com/kostub.iosMath). This repo is here only for reference, and will not be updated.
+As of Jan. 11, 2017, MacOSMath is already merged back to iosMath. Check out [this link](https://github.com/kostub/iosMath). This repo is here only for reference, and will not be updated.
 
 Great iOS LaTeX rendering engine (iosMath) ported to Mac OS!
 
